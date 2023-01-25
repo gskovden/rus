@@ -1,0 +1,11 @@
+.politics {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+}
+
+@media screen and (max-width: 700px) {
+  .politics {
+    margin: 25px;
+  }
+}

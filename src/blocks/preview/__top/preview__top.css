@@ -1,0 +1,16 @@
+.preview__top {
+  height: 50vh;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: .6;
+  text-decoration: none;
+  color: white;
+}
+
+.preview__top:hover {
+  opacity: 1;
+  background-color: #624AD8;
+}

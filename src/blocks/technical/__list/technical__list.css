@@ -1,0 +1,12 @@
+.technical__list {
+  display: grid;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .technical__list {
+    width: 100%;
+  }
+}

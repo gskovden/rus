@@ -1,0 +1,21 @@
+.main {
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 0;
+}
+
+@media screen and (max-width: 1300px) {
+  .main {
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .main {
+  }
+}

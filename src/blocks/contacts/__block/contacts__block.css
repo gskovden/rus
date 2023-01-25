@@ -1,0 +1,11 @@
+.contacts__block {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width: 1000px) {
+  .contacts__block {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}

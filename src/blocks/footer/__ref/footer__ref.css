@@ -1,0 +1,14 @@
+.footer__ref {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  margin: 0 0 10px 0;
+}
+
+.footer__ref:hover {
+  text-decoration: underline;
+}
+
+.footer__ref:last-child {
+  margin: 0;
+}

@@ -1,0 +1,16 @@
+.technical__text_grid {
+  text-align: left;
+  line-height: 1.23;
+}
+
+@media screen and (max-width: 1000px) {
+  .technical__text_grid {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .technical__text_grid {
+    text-align: left;
+  }
+}

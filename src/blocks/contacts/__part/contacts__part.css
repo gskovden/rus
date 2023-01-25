@@ -1,0 +1,21 @@
+.contacts__part {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width: 1000px) {
+  .contacts__part {
+    flex-direction: row;
+    margin: 0 0 20px 0;
+  }
+}
+
+@media screen and (max-width: 372px) {
+  .contacts__part {
+    flex-direction: column;
+    align-items: center;
+  }
+}

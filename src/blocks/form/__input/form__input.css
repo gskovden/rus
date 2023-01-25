@@ -1,0 +1,20 @@
+.form__input {
+  min-height: 50px;
+  width: 50%;
+  margin: 0 0 20px 0;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1300px) {
+  .form__input {
+    font-size: 18px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .form__input {
+    font-size: 16px;
+  }
+}

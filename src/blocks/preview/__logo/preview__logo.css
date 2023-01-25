@@ -1,0 +1,9 @@
+.preview__logo {
+ width: 140px;
+ height: 140px;
+ position: absolute;
+ left: 50%;
+ top: 50%; 
+ margin: 0;
+ transform:translate(-50%, -50%);
+}

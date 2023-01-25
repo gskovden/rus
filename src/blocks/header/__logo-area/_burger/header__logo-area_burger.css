@@ -1,0 +1,8 @@
+.header__logo-area_burger {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin-bottom: 30px;
+}

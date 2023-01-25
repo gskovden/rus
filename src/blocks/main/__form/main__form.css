@@ -1,0 +1,36 @@
+.main__form {
+  z-index: 5;
+  background-color: white;
+  padding: 30px;
+  border-radius: 100px;
+  margin: 180px 0 0 0;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 1300px) {
+  .main__form {
+    padding: 25px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .main__form {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .main__form {
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main__form {
+    padding: 10px;
+    border-radius: 40px;
+  }
+}

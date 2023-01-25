@@ -1,0 +1,23 @@
+.header__tel {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1700px) {
+  .header__tel {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .header__tel {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .header__tel {
+    font-size: 16px;
+  }
+}
