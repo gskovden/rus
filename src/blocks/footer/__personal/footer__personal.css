@@ -9,3 +9,9 @@
 .footer__personal:hover {
   opacity: .8;
 }
+
+@media screen and (max-width: 700px) {
+  .footer__personal {
+    margin: 20px 0 0 0;
+  }
+}
