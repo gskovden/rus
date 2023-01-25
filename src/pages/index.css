@@ -41,6 +41,11 @@
 @import url(../blocks/main/__unit/main__unit.css);
 @import url(../blocks/main/__personal/main__personal.css);
 @import url(../blocks/main/_hidden/main_hidden.css);
+@import url(../blocks/main/_skvorcova/main_skvorcova.css);
+@import url(../blocks/main/_tverskoy/main_tverskoy.css);
+@import url(../blocks/main/__img/main__img.css);
+@import url(../blocks/main/__back/main__back.css);
+@import url(../blocks/main/__item/main__item.css);
 @import url(../blocks/about/about.css);
 @import url(../blocks/about/__block/about__block.css);
 @import url(../blocks/about/__img/about__img.css);

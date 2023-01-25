@@ -2,10 +2,10 @@
   display: flex;
   justify-content: center;
   margin: 0 0 30px 0;
-  color: white;
+  color: black;
   cursor: pointer;
-  background-color: orangered;
-  border: none;
+  background-color: #FFF700;
+  border: 1px solid #41046F;
   border-radius: 100px;
   padding: 5px;
   font-size: 24px;

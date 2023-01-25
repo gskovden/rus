@@ -1,12 +1,12 @@
 .form__submit-button {
   margin: 0;
   min-height: 65px;
-  background-color: orangered;
-  border: 1px solid orangered;
+  background-color: #FFF700;
+  border: 1px solid #41046F;
   cursor: pointer;
   font-size: 20px;
   font-weight: 700;
-  color: white;
+  color: black;
   width: 50%;
 }
 

@@ -51,10 +51,12 @@ module.exports = {
         favicon: 'src/images/logo/logo.ico'
       }),
       new HtmlWebpackPlugin({
+        filename: 'tverskoy.html',
         template: 'src/tverskoy.html',
         favicon: 'src/images/logo/logo.ico'
       }),
       new HtmlWebpackPlugin({
+        filename: 'skvorcova.html',
         template: 'src/skvorcova.html',
         favicon: 'src/images/logo/logo.ico'
       }),

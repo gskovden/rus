@@ -1,12 +1,12 @@
 .main__submit-button {
   margin: 0;
-  background-color: orangered;
-  border: none;
+  background-color: #FFF700;
+  border: 1px solid #41046F;
   border-radius: 100px;
   padding: 10px;
   font-size: 20px;
   font-weight: 400;
-  color: white;
+  color: black;
   cursor: pointer;
 }
 

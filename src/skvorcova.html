@@ -11,22 +11,7 @@
           emailjs.init('18doDoRxEuYwjBvzD');
       })();
   </script>
-  <!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-  (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-  m[i].l=1*new Date();
-  for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-  k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-  (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-  ym(91999781, "init", {
-       clickmap:true,
-       trackLinks:true,
-       accurateTrackBounce:true
-  });
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/91999781" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
 </head>
 <body class="page">
 
@@ -56,14 +41,14 @@
     </div>
     <div class="header__burger-type">
       <div class="header__burger-links">
-        <a class="header__logo-area_burger" href="#main"><img src="<%=require('../src/images/logo/logo.svg')%>" alt="логотип" class="header__logo_burger"><h1 class="header__title_burger">Русь</h1></a>
+        <a class="header__logo-area_burger" href="#main_skvorcova"><img src="<%=require('../src/images/logo/logo.svg')%>" alt="логотип" class="header__logo_burger"><h1 class="header__title_burger">Русь</h1></a>
         <ul class="header__burger-list">
-          <li class="header__link"><a class="header__item" href="#main">Главная</a></li>
-          <li class="header__link"><a class="header__item" href="#about">Обзор помещения</a></li>
-          <li class="header__link"><a class="header__item" href="#technical">Технические параметры</a></li>
-          <li class="header__link"><a class="header__item" href="#plan">План помещения</a></li>
-          <li class="header__link"><a class="header__item" href="#photo">Фото</a></li>
-          <li class="header__link"><a class="header__item" href="#contacts">Контакты</a></li>
+          <li class="header__link"><a class="header__item" href="#main_skvorcova">Главная</a></li>
+          <li class="header__link"><a class="header__item" href="#about_skvorcova">Обзор помещения</a></li>
+          <li class="header__link"><a class="header__item" href="#technical_skvorcova">Технические параметры</a></li>
+          <li class="header__link"><a class="header__item" href="#plan_skvorcova">План помещения</a></li>
+          <li class="header__link"><a class="header__item" href="#photo_skvorcova">Фото</a></li>
+          <li class="header__link"><a class="header__item" href="#contacts_skvorcova">Контакты</a></li>
         </ul>
         <a class="header__consult-burger">Заказать консультацию</a>
         <a class="header__area" href="tel:+79038070888">
@@ -83,8 +68,12 @@
     </div>
   </header>
 
-  <section class="section main" id="main_skvorcova">
+  <section class="section main main_skvorcova" id="main_skvorcova">
       <h2 class="main__title">Аренда помещения</h2>
+      <a class="main__back" href="./index.html">
+        <img src="<%=require('../src/images/main/Undo_Down.svg')%>" alt="стрелка" class="main__img">
+        <p class="main__item">Назад</p>
+      </a>
       <form class="main__form" id="main__form">
         <div class="main__unit">
           <input class="main__input" type="tel" name="tel" id="tel" data-validate-field="tel" placeholder="+7 (___) ___-__-__" required>
@@ -102,7 +91,6 @@
         <p class="about__text">Помещение находится в <i>г. Тверь по адресу ул. Скворцова-Степанова, д. 9</i>. Город занимает наиболее выгодную с экономической точки зрения расположение - между Москвой и Санкт-Петербургом. Тверь является крупным транспортным узлом, пересечением многих туристических и гастрольных маршрутов.</p>
         <p class="about__text">Здание находится рядом с оживленной улицей на пересечении Центрального и Московского районов города. Рядом находятся <i>4 университета,2 общеобразовательные школы, бизнес-центр, стадион, 5 банков (2 филиала СберБанка и др.), продовольственные магазины, парк и сквер</i>, что обеспечивает высокую интенсивность проходимости потока как в будние, так и в выходные дни.</p>
         <p class="about__text">В соседних зданиях расположены <i>5 аптек, 3 автобусные остановки находятся рядом со зданием</i>, которые формируют высокий трафик в утренние и вечерние часы. Вокруг помещения имеется <i>более 50 парковочных мест</i>. В радиусе 500 метров расположено больше <i>100 жилых домов</i> - благодаря этому обеспечивается высокая конверсия и лучшие продажи.</p>
-        <p class="about__text">Для удобства поставки товара установлен <i>грузовой подъемник</i>.</p>
         <a class="about__link" href="./history_skvorcova.html">Подробнее о городе Тверь</a>
       </div>
     </div>
@@ -150,14 +138,10 @@
 
   <section class="section plan" id="plan_skvorcova">
     <h2 class="plan__title">План помещения</h2>
-    <div class="plan__slider">
-      <img src="<%=require('../src/images/plan/skvorcova.webp')%>" alt="план помещения" class="plan__img">
-    </div>
-    <a class="plan__arrow-left"></a>
-    <a class="plan__arrow-right"></a>
+    <img src="<%=require('../src/images/plan/skvorcova.webp')%>" alt="план помещения" class="plan__img">
   </section>
 
-  <section class="section photo" id="photo">
+  <section class="section photo" id="photo_skvorcova">
     <h2 class="photo__title">Фото</h2>
     <div class="photo__slider">
 
@@ -169,7 +153,7 @@
   <section class="section contacts" id="contacts_skvorcova">
     <h2 class="contacts__title">Контакты</h2>
     <div class="contacts__block">
-      <iframe class="contacts__map" src="https://yandex.ru/map-widget/v1/?um=constructor%3A406589db484bebf721153b588b4ac058c5c84821d8002ca053500109fe95d8d8&amp;source=constructor" frameborder="0"></iframe>
+      <iframe class="contacts__map" src="https://yandex.ru/map-widget/v1/?um=constructor%3A36b9473755fee47e4b20679afd6c0b3145148de82a78264752ea0e7e2c5ee9bd&amp;source=constructor" frameborder="0"></iframe>
       <div class="contacts__area">
         <div class="contacts__part">
           <div class="contacts__unit">
@@ -220,6 +204,7 @@
       </div>
       <ul class="footer__links">
         <li class="footer__ref"><a class="footer__ref" href="#main_skvorcova">Главная</a></li>
+        <li class="footer__ref"><a class="footer__ref" href="#about_skvorcova">Обзор помещения</a></li>
         <li class="footer__ref"><a class="footer__ref" href="#technical_skvorcova">Технические параметры</a></li>
         <li class="footer__ref"><a class="footer__ref" href="#plan_skvorcova">План помещения</a></li>
         <li class="footer__ref"><a class="footer__ref" href="#photo_skvorcova">Фото</a></li>

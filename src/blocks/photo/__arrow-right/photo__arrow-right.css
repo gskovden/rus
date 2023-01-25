@@ -1,6 +1,6 @@
 .photo__arrow-right {
 	right: 25px;
-  /* background: #fff url(../../../images/photo/arrow-right.svg) no-repeat 34px 26px; */
+  background: #fff url(../../../images/photo/arrow-right.svg) no-repeat 34px 26px;
   height: 80px;
 	position: absolute;
 	width: 80px;
@@ -15,7 +15,7 @@
 	.photo__arrow-right {
 		height: 60px;
     width: 60px;
-		/* background: #fff url(../../../images/photo/arrow-right.svg) no-repeat 24px 16px; */
+		background: #fff url(../../../images/photo/arrow-right.svg) no-repeat 24px 16px;
 	}
 }
 
@@ -23,7 +23,7 @@
 	.photo__arrow-right {
 		height: 40px;
     width: 40px;
-		/* background: #fff url(../../../images/photo/arrow-right-small.svg) no-repeat 15px 9px; */
+		background: #fff url(../../../images/photo/arrow-right-small.svg) no-repeat 15px 9px;
 	}
 }
 

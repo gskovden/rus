@@ -11,22 +11,7 @@
           emailjs.init('18doDoRxEuYwjBvzD');
       })();
   </script>
-  <!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-  (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-  m[i].l=1*new Date();
-  for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-  k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-  (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-  ym(91999781, "init", {
-       clickmap:true,
-       trackLinks:true,
-       accurateTrackBounce:true
-  });
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/91999781" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
 </head>
 <body class="page">
 
@@ -39,14 +24,14 @@
       </div>
     </div>
     <div class="header__block">
-      <a class="header__logo-area" href="#main"><img src="<%=require('../src/images/logo/logo.svg')%>" alt="логотип" class="header__logo"><h1 class="header__title">Русь</h1></a>
+      <a class="header__logo-area" href="#main_tverskoy"><img src="<%=require('../src/images/logo/logo.svg')%>" alt="логотип" class="header__logo"><h1 class="header__title">Русь</h1></a>
       <ul class="header__nav">
-        <li class="header__link"><a class="header__item" href="#main">Главная</a></li>
-        <li class="header__link"><a class="header__item" href="#about">Обзор помещения</a></li>
-        <li class="header__link"><a class="header__item" href="#technical">Технические параметры</a></li>
-        <li class="header__link"><a class="header__item" href="#plan">План помещения</a></li>
-        <li class="header__link"><a class="header__item" href="#photo">Фото</a></li>
-        <li class="header__link"><a class="header__item" href="#contacts">Контакты</a></li>
+        <li class="header__link"><a class="header__item" href="#main_tverskoy">Главная</a></li>
+        <li class="header__link"><a class="header__item" href="#about_tverskoy">Обзор помещения</a></li>
+        <li class="header__link"><a class="header__item" href="#technical_tverskoy">Технические параметры</a></li>
+        <li class="header__link"><a class="header__item" href="#plan_tverskoy">План помещения</a></li>
+        <li class="header__link"><a class="header__item" href="#photo_tverskoy">Фото</a></li>
+        <li class="header__link"><a class="header__item" href="#contacts_tverskoy">Контакты</a></li>
       </ul>
       <a class="header__phone" href="tel:+79038070888">
         <img src="<%=require('../src/images/header/phone.svg')%>" alt="телефон" class="header__img">
@@ -56,14 +41,14 @@
     </div>
     <div class="header__burger-type">
       <div class="header__burger-links">
-        <a class="header__logo-area_burger" href="#main"><img src="<%=require('../src/images/logo/logo.svg')%>" alt="логотип" class="header__logo_burger"><h1 class="header__title_burger">Русь</h1></a>
+        <a class="header__logo-area_burger" href="#main_tverskoy"><img src="<%=require('../src/images/logo/logo.svg')%>" alt="логотип" class="header__logo_burger"><h1 class="header__title_burger">Русь</h1></a>
         <ul class="header__burger-list">
-          <li class="header__link"><a class="header__item" href="#main">Главная</a></li>
-          <li class="header__link"><a class="header__item" href="#about">Обзор помещения</a></li>
-          <li class="header__link"><a class="header__item" href="#technical">Технические параметры</a></li>
-          <li class="header__link"><a class="header__item" href="#plan">План помещения</a></li>
-          <li class="header__link"><a class="header__item" href="#photo">Фото</a></li>
-          <li class="header__link"><a class="header__item" href="#contacts">Контакты</a></li>
+          <li class="header__link"><a class="header__item" href="#main_tverskoy">Главная</a></li>
+          <li class="header__link"><a class="header__item" href="#about_tverskoy">Обзор помещения</a></li>
+          <li class="header__link"><a class="header__item" href="#technical_tverskoy">Технические параметры</a></li>
+          <li class="header__link"><a class="header__item" href="#plan_tverskoy">План помещения</a></li>
+          <li class="header__link"><a class="header__item" href="#photo_tverskoy">Фото</a></li>
+          <li class="header__link"><a class="header__item" href="#contacts_tverskoy">Контакты</a></li>
         </ul>
         <a class="header__consult-burger">Заказать консультацию</a>
         <a class="header__area" href="tel:+79038070888">
@@ -83,8 +68,12 @@
     </div>
   </header>
 
-  <section class="section main" id="main">
+  <section class="section main main_tverskoy" id="main_tverskoy">
       <h2 class="main__title">Аренда помещения</h2>
+      <a class="main__back" href="./index.html">
+        <img src="<%=require('../src/images/main/Undo_Down.svg')%>" alt="стрелка" class="main__img">
+        <p class="main__item">Назад</p>
+      </a>
       <form class="main__form" id="main__form">
         <div class="main__unit">
           <input class="main__input" type="tel" name="tel" id="tel" data-validate-field="tel" placeholder="+7 (___) ___-__-__" required>
@@ -94,7 +83,7 @@
       </form>
   </section>
 
-  <section class="section about" id="about">
+  <section class="section about" id="about_tverskoy">
     <h2 class="about__title">Обзор помещения</h2>
     <div class="about__block">
       <img src="<%=require('../src/images/about/about.webp')%>" alt="фото помещения" class="about__img">
@@ -102,63 +91,62 @@
         <p class="about__text">Помещение находится в <i>г. Тверь по адресу Тверской проспект, д. 16</i>. Город занимает наиболее выгодную с экономической точки зрения расположение - между Москвой и Санкт-Петербургом. Тверь является крупным транспортным узлом, пересечением многих туристических и гастрольных маршрутов.</p>
         <p class="about__text">Здание находится рядом с оживленной улицей на пересечении Центрального и Московского районов города. Рядом находятся <i>4 университета,2 общеобразовательные школы, бизнес-центр, стадион, 5 банков (2 филиала СберБанка и др.), продовольственные магазины, парк и сквер</i>, что обеспечивает высокую интенсивность проходимости потока как в будние, так и в выходные дни.</p>
         <p class="about__text">В соседних зданиях расположены <i>5 аптек, 3 автобусные остановки находятся рядом со зданием</i>, которые формируют высокий трафик в утренние и вечерние часы. Вокруг помещения имеется <i>более 50 парковочных мест</i>. В радиусе 500 метров расположено больше <i>100 жилых домов</i> - благодаря этому обеспечивается высокая конверсия и лучшие продажи.</p>
-        <p class="about__text">Для удобства поставки товара установлен <i>грузовой подъемник</i>.</p>
         <a class="about__link" href="./history_tverskoy.html">Подробнее о городе Тверь</a>
       </div>
     </div>
   </section>
 
-  <section class="section technical" id="technical">
+  <section class="section technical" id="technical_tverskoy">
     <h2 class="technical__title">Технические параметры</h2>
     <div class="technical__block">
       <div class="technical__item">
         <img src="<%=require('../src/images/technical/useful_area.webp')%>" alt="полезная площадь" class="technical__img">
-        <p class="technical__parameter">1056,9</p>
+        <p class="technical__parameter">229,9</p>
         <p class="technical__text">Полезная площадь, кв. м</p>
       </div>
       <div class="technical__item">
         <img src="<%=require('../src/images/technical/land_area.webp')%>" alt="площадь участка" class="technical__img">
-        <p class="technical__parameter">2285</p>
-        <p class="technical__text">Площадь участка, кв. м</p>
+        <p class="technical__parameter">3,3</p>
+        <p class="technical__text">Высота потолков, м</p>
       </div>
       <div class="technical__item">
         <img src="<%=require('../src/images/technical/floors_number.webp')%>" alt="количество этажей" class="technical__img">
-        <p class="technical__parameter">3</p>
+        <p class="technical__parameter">1</p>
         <p class="technical__text">Количество этажей</p>
       </div>
       <div class="technical__item">
         <img src="<%=require('../src/images/technical/building.webp')%>" alt="год постройки" class="technical__img">
-        <p class="technical__parameter">2005</p>
+        <p class="technical__parameter">1938</p>
         <p class="technical__text">Год постройки</p>
       </div>
     </div>
     <div class="technical__grid">
       <ul class="technical__list">
-        <li class="technical__text technical__text_grid">Высота потолков, м : 3,3</li>
+        <li class="technical__text technical__text_grid">Крыша: шиферная</li>
         <li class="technical__text technical__text_grid">Полы: плиточные</li>
-        <li class="technical__text technical__text_grid">Стены: кирпич, газосиликат</li>
-        <li class="technical__text technical__text_grid">Перегородки: кирпич, пенобетон</li>
+        <li class="technical__text technical__text_grid">Стены: кирпичные</li>
+        <li class="technical__text technical__text_grid">Перегородки: деревянные</li>
       </ul>
       <ul class="technical__list">
-        <li class="technical__text technical__text_grid">Перекрытия: железобетон</li>
-        <li class="technical__text technical__text_grid">Фундамент: бетон</li>
-        <li class="technical__text technical__text_grid">Оконные проемы: стеклопакеты, витражи алюминиевые</li>
-        <li class="technical__text technical__text_grid">Дверные проемы: филенчатые</li>
+        <li class="technical__text technical__text_grid">Перекрытия: железобетонные, деревянные</li>
+        <li class="technical__text technical__text_grid">Фундамент: бутовый ленточный</li>
+        <li class="technical__text technical__text_grid">Оконные проемы: стеклопакеты</li>
+        <li class="technical__text technical__text_grid">Дверные проемы: стеклопакеты</li>
       </ul>
     </div>
   </section>
 
-  <section class="section plan" id="plan">
+  <section class="section plan" id="plan_tverskoy">
     <h2 class="plan__title">План помещения</h2>
     <div class="plan__slider">
-      <img src="<%=require('../src/images/plan/tverskoy1.webp')%>" alt="план помещения" class="plan__img">
       <img src="<%=require('../src/images/plan/tverskoy2.webp')%>" alt="план помещения" class="plan__img">
+      <img src="<%=require('../src/images/plan/tverskoy1.webp')%>" alt="план помещения" class="plan__img">
     </div>
     <a class="plan__arrow-left"></a>
     <a class="plan__arrow-right"></a>
   </section>
 
-  <section class="section photo" id="photo">
+  <section class="section photo" id="photo_tverskoy">
     <h2 class="photo__title">Фото</h2>
     <div class="photo__slider">
       <img src="<%=require('../src/images/photo/main.webp')%>" alt="фото помещения" class="photo__img">
@@ -169,10 +157,10 @@
     <a class="photo__arrow-right"></a>
   </section>
 
-  <section class="section contacts" id="contacts">
+  <section class="section contacts" id="contacts_tverskoy">
     <h2 class="contacts__title">Контакты</h2>
     <div class="contacts__block">
-      <iframe class="contacts__map" src="https://yandex.ru/map-widget/v1/?um=constructor%3A406589db484bebf721153b588b4ac058c5c84821d8002ca053500109fe95d8d8&amp;source=constructor" frameborder="0"></iframe>
+      <iframe class="contacts__map" src="https://yandex.ru/map-widget/v1/?um=constructor%3A0a2ed0cf3339fea45f22fb8afc778a23d51b03ed513d03bc2f1d0a7c3325ad88&amp;source=constructor" frameborder="0"></iframe>
       <div class="contacts__area">
         <div class="contacts__part">
           <div class="contacts__unit">
@@ -223,6 +211,7 @@
       </div>
       <ul class="footer__links">
         <li class="footer__ref"><a class="footer__ref" href="#main">Главная</a></li>
+        <li class="footer__ref"><a class="footer__ref" href="#about_tverskoy">Обзор помещения</a></li>
         <li class="footer__ref"><a class="footer__ref" href="#technical">Технические параметры</a></li>
         <li class="footer__ref"><a class="footer__ref" href="#plan">План помещения</a></li>
         <li class="footer__ref"><a class="footer__ref" href="#photo">Фото</a></li>

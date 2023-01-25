@@ -3,7 +3,7 @@
   width: 200px;
   min-height: 50px;
   box-sizing: border-box;
-  border: solid 2px rgb(0, 0, 0, .2);
+  border: 1px solid #41046F;
   border-radius: 100px;
   margin: 0;
   padding: 0;

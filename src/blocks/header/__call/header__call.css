@@ -1,9 +1,9 @@
 .header__call {
   margin: 0;
-  color: white;
+  color: black;
   cursor: pointer;
-  background-color: orangered;
-  border: none;
+  background-color: #FFF700;
+  border: 1px solid #41046F;
   border-radius: 100px;
   padding: 5px;
   font-size: 20px;

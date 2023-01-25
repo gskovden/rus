@@ -1,8 +1,9 @@
 .footer__call {
   margin: 0;
   cursor: pointer;
-  background-color: orangered;
-  border: none;
+  background-color: #FFF700;
+  color: black;
+  border: 1px solid #41046F;
   padding: 5px;
   border-radius: 100px;
   font-size: 16px;

@@ -5,10 +5,10 @@
   min-height: 50px;
   margin: 0;
   padding: 0;
-  background-color: #ff4500;
-  border: none;
+  background-color: #FFF700;
+  border: 1px solid #41046F;
+  color: black;
   border-radius: 100px;
-  color: white;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;

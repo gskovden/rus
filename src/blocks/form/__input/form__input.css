@@ -4,6 +4,7 @@
   margin: 0 0 20px 0;
   font-size: 20px;
   box-sizing: border-box;
+  border: 1px solid #41046F;
 }
 
 @media screen and (max-width: 1300px) {
