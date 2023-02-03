@@ -40,7 +40,9 @@ im.mask(selector);
 window.addEventListener('scroll', () => {
   if (window.scrollHeight !== window.innerHeight && window.scrollY !== 0) {
     // Если прокрутка есть, то делаем блок прозрачным
-    header.classList.add('header_scroll');
+    if (header) {
+      header.classList.add('header_scroll');
+    }
   } else {
 		header.classList.remove('header_scroll');
 	}
