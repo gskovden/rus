@@ -217,16 +217,24 @@ closeButtons.forEach((item) =>
   item.addEventListener('click', () => closePopup(item.closest('.popup')))
 );
 popups.forEach((item) => item.addEventListener('click', closePopupClickOverlay));
-headerCall.addEventListener('click', openCallPopup);
-footerCall.addEventListener('click', openCallPopup);
-burgerCall.addEventListener('click', openCallPopup);
+if (headerCall) {
+  headerCall.addEventListener('click', openCallPopup);
+}
+if (footerCall) {
+  footerCall.addEventListener('click', openCallPopup);
+}
+if (burgerCall) {
+  burgerCall.addEventListener('click', openCallPopup);
+}
 if (popupThanksButton) {
   popupThanksButton.addEventListener('click', closePopup);
 }
 burgerLink.forEach(el => {
 	el.addEventListener("click", burgerClose);
 });
-burgerButton.addEventListener('click', burger);
+if (burgerButton) {
+  burgerButton.addEventListener('click', burger);
+}
 
 //отправка формы
 document.getElementById("popup-form").addEventListener("submit", function (event) {
