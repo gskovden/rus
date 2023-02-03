@@ -1,9 +1,12 @@
 .about__link {
   margin: 0;
   cursor: pointer;
-  color: midnightblue;
+  color: deeppink;
   font-size: 18px;
+  font-weight: 700;
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
 .about__link:hover {
